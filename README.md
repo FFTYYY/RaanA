@@ -132,8 +132,8 @@ quantize(
 - Default: `[trick_centralize, trick_norm_col]`.
 
 **`weightbias_extractor: Callable[[nn.Module], tuple[Tensor, Tensor | None]]`**
-- A function to extract weight and bias matrices from a linear module and transform them into the standard size.
-- The returned value of this function should be extracted `weight` and `bias` of the provided layer. `weight` should be a tensor of size `(d_in, d_out)`, and `bias` should be `None` or a tensor of size `(d_out, )`.
+- A function to extract weight and bias matrices from a linear module and transform them into the standard shape.
+- The returned value of this function should be extracted `weight` and `bias` of the provided layer. `weight` should be a tensor of shape `(d_in, d_out)`, and `bias` should be `None` or a tensor of shape `(d_out, )`.
 - Default: `lambda layer: (layer.weight.t().data, layer.bias.data)`
 
 **`matmul: Callable[[Tensor, Tensor, Tensor, int], Tensor]`**
