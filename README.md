@@ -61,6 +61,7 @@ from raana.tricks           import Trick
 from raana.select_layers    import default_linear_selector
 from raana.quantized_linear import default_weightbias_extractor, default_matmul
 from raana.tricks           import trick_centralize, trick_norm_col
+from raana                  import quantize
 
 quantize(
     model               : Module,
