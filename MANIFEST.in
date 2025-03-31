@@ -1,0 +1,14 @@
+include LICENSE
+include README.md
+include MANIFEST.in
+include requirements.txt
+recursive-include raana *.cpp
+recursive-include raana *.py
+
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
+global-exclude *.dylib
+global-exclude .git
+global-exclude .gitignore
+global-exclude .DS_Store

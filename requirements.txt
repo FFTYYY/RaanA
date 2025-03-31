@@ -1,0 +1,8 @@
+torch
+transformers>=4.46.2
+datasets>=3.1.0
+tqdm>=4.67.0
+scipy>=1.14.1
+scikit-learn>=1.5.2
+pybind11>=2.6.0
+cmake>=3.8

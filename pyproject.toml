@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "pybind11>=2.6.0",
+    "cmake>=3.8"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RaanA"
+version = "0.1.0"
+description = "RaanA quantization algorithm"
+readme = "README.md"
+authors = [
+    {name = "Yongyi Yang", email = "yongyi@umich.edu"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers>=4.46.2",
+    "datasets>=3.1.0",
+    "tqdm>=4.67.0",
+    "scipy>=1.14.1",
+    "scikit-learn>=1.5.2",
+    "pybind11>=2.6.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/FFTYYY/RaanA"
+Repository = "https://github.com/FFTYYY/RaanA"
+
+[tool.setuptools]
+packages = {find = {include = ["raana", "raana.*"]}}
+
+[tool.setuptools.package-data]
+raana = ["*.cpp", "*.hpp"]

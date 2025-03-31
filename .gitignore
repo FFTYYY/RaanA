@@ -1,0 +1,8 @@
+*.pyc
+.vscode
+mynotes.txt
+change_hfhome.py
+build
+dist 
+__pycache__
+*.egg-info
