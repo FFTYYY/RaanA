@@ -33,7 +33,7 @@ quantized_model = quantize(
 )["model"]
 
 # evaluate your model
-evaluete(quantized_model)
+evaluete(quantized_model, ...)
 ```
 
 ### A Complete Example
