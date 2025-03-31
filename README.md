@@ -156,7 +156,7 @@ quantize(
 ```python
 {
     "model" : torch.nn.Module,  # quantized model
-    "bits"  : list[int],        # allocated bitwidth per layer
-    "losses": list[float]       # calibration loss per calibration data
+    "bits"  : dict[str, float], # allocated bitwidth per layer
+    "losses": list[float],      # calibration loss per calibration data
 }
 ```
