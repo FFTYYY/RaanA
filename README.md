@@ -4,8 +4,8 @@ This repo contains the implementation of the paper "RaanA: A Fast, Flexible, and
 
 ## Installation
 
-1. to install from pypi: `pip install raana`
-2. to install from source: 
+- to install from pypi: `pip install raana`
+- to install from source: 
     ```sh
     pip install build 
     git clone https://github.com/FFTYYY/RaanA
