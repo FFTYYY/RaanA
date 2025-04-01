@@ -91,7 +91,7 @@ quantize(
   
 **`b_candidates: list[float]`**
 - Candidate number of bits allowed for each layer.
-- Can optionally float numbers in 0~1. If so, less-than-one-bit quantization will be enabled.
+- Can include float numbers smaller than 1. If so, less-than-one-bit quantization will be enabled.
 - Example: `[0.5, 0.75, 1, 2, 3, 4]`.
 
 **`calibrate_data: raana.task_adaptor.TaskAdaptor`**
