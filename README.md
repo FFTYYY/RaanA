@@ -12,8 +12,8 @@ This repo contains the implementation of the paper "RaanA: A Fast, Flexible, and
 
 ## Installation
 
-- to install from pypi: `pip install raana`
-- to install from source: 
+- To install from pypi: `pip install raana`
+- To build from source: 
     ```sh
     pip install build 
     git clone https://github.com/FFTYYY/RaanA
@@ -45,7 +45,7 @@ evaluete(quantized_model, ...)
 ```
 
 ### A Complete Example
-Too run example quantization for llama2 on wikitext2 (and reproduce the result reported in the paper):
+To run example quantization for llama2 on wikitext2 (and reproduce the result reported in the paper):
 ```
 pip install raana
 git clone https://github.com/FFTYYY/RaanA
