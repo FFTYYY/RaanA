@@ -139,7 +139,7 @@ quantize(
 
 **`matmul: Callable[[Tensor, Tensor, Tensor, int], Tensor]`**
 - A function to perform low-precision matrix multiplication.
-- Since there are no official implementation for low-precision uint-float matrix multiplication implemnetation and we want to minimize the dependency of `raana`, we leave the implementation of matrix multiplication to users.
+- Since there are no standard implementations for low-precision uint-float matrix multiplications and we want to minimize the dependency of `raana`, we leave the implementation of matrix multiplication to users.
 - The input parameters are `X, qW, rescale, B`. `X` is a float tensor, `qW` is a `B`-bit uint tensor and `rescale` is a float rescale tensor. This return value of this function should be equal to `(X@qW - ((2**B-1)/2.*X.sum(dim=-1)).view(-1,1)) * rescale.view(1,-1)`. 
 - Default: transform everything to float32 and do standard matrix multiplication. Below is the default implementation.
     ```python
