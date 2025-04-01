@@ -15,15 +15,7 @@ double cost(double B){
     return 1. / (2. * sqrt(B));
 }
 
-/**
- * sizes : [num_layers]
- * coeffs: [num_layers]
- * nob   : [num_layers]
- * lowbit: if true, use < 1 bit
- * 
- * return: status, results
- * status: 0 for success, -1 for size mismatch, -2 for no solution, -3 for wrong solution
- */
+
 tuple<int, pybind11::array_t<float>> dp(
     int total_r, 
     int num_layers, 
