@@ -1,4 +1,12 @@
-# RaanA: A Fast, Flexible, and Data-Efficient Post-Training Quantization Algorithm
+<h1 style="padding-bottom: 20px;">
+  <img src="resources/raana.png" alt="logo" width="150" align="left" style="margin-right: 20px;">
+
+  &nbsp; 
+
+  <span>
+    RaanA: A Fast, Flexible, and Data-Efficient Post-Training Quantization Algorithm
+  </span>
+</h1>
 
 This repo contains the implementation of the paper "RaanA: A Fast, Flexible, and Data-Efficient Post-Training Quantization Algorithm".
 
