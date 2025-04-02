@@ -1,5 +1,5 @@
 <h1 style="padding-bottom: 20px;">
-  <img src="resources/raana.png" alt="logo" width="150" align="left" style="margin-right: 20px;">
+  <img src="resources/raana_2.png" alt="logo" width="150" align="left" style="margin-right: 20px;">
 
   &nbsp; 
 
