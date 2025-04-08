@@ -8,7 +8,8 @@
   </span>
 </h1>
 
-This repo contains the implementation of the paper "RaanA: A Fast, Flexible, and Data-Efficient Post-Training Quantization Algorithm". We've created a [pypi package](https://pypi.org/project/RaanA/) to make the algorithm ready to use! See below 👇 for the instructions on how to use it.
+This repo contains the implementation of the paper [RaanA: A Fast, Flexible, and Data-Efficient Post-Training Quantization Algorithm](http://arxiv.org/abs/2504.03717
+). We've created a [pypi package](https://pypi.org/project/RaanA/) to make the algorithm ready to use! See below 👇 for the instructions on how to use it.
 
 ## Installation
 
