@@ -10,8 +10,8 @@ from torch.utils.checkpoint import checkpoint, checkpoint_sequential
 from .task_adaptor import TaskAdaptor, LMAdaptor
 
 zeroshot_calibration = LMAdaptor([
-    "The curious fox leaped over the quiet stream, "
-        + "its reflection rippling in the golden afternoon light. " * 100,
+    ("The curious fox leaped over the quiet stream, "
+        + "its reflection rippling in the golden afternoon light. ") * 100,
 ])
 
 class Calibrator:
